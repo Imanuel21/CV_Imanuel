@@ -1,0 +1,32 @@
+body{
+    background-image: url(coding.jpg);
+    color: #ffffff;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td{
+    text-align: left;
+    padding: 7px;
+    background-color: #25316D;
+    opacity: 70%;
+}
+tr :nth-child(even){
+    background-color: #25316D;
+    opacity: 70%;
+}
+h1{
+    padding-left: 44%;
+    color: #ffffff;
+    background-color: #CDF0EA;
+    width: fit-content;
+    border-left-color: aquamarine;
+}
+a{
+    color: #8080ff;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurikulum CV</title>
+</head>
+<style>
+    body{
+        background-image: url(coding.jpg);
+        color: #ffffff;
+        background-attachment: fixed;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    table{
+        border-collapse: collapse;
+        width: 85%;
+    }
+
+    th, td{
+        
+        text-align: left;
+        padding: 7px;
+        background-color: #25316D;
+        opacity: 70%;
+    }
+    tr :nth-child(even){
+        background-color: #25316D;
+        opacity: 70%;
+    }
+    h1{
+        padding-left: 44%;
+        color: #ffffff;
+    }
+    a{
+        color: #8080ff;
+    }
+   
+
+</style>
+<body>
+    <h1>CURICCULUM VITAE</h1>
+    <h3>Identitas diri</h3>
+    <hr>
+    <table>
+        <tr>
+            <td>Nama</td>
+            <td>Imanuel Mariano Sep</td>
+            <td rowspan=6><img src="pas_foto-removebg.png" alt="Imanuel Mariano" style="width: 250px; height: 250px; text-align: center; padding-left: 20%;"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Tempat/tanggal lahir</td>
+            <td>Kupang, 21 November 2001</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>Jl. H.R.Koroh Bello, Kec. Maulafa, Kota Kupang, NTT</td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon</td>
+            <td><a href="https://wa.me/082339129611">082339129611</a></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td> <a href="mailto:imanuel.mariano.5@gmail.com">imanuel.mariano.5@gmail.com</a></td>
+        </tr>
+          
+    </table>
+    <br>
+    <h3>Riwayat Pendidikan</h3>
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th>Tempat Pendidikan</th>
+            <th>Tahun Lulus</th>
+        </tr>
+        <tr>
+            <td>Universitas Sanata Dharma Yogyakarta</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>SMA Negeri 3 Kupang</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>SMPK St. Familia Kupang</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td>SDK Don Bosco 2 Kupang</td>
+            <td>2013</td>
+        </tr>
+        <tr>
+            <td>TK St. Maria Goreti Kupang</td>
+            <td>2007</td>
+        </tr>
+    </table>
+    
+    <br>
+    <h3>Keahlian Personal</h3>
+    <hr>
+    <ul>
+        <li>Bermain Gitar</li>
+        <li>Membaca not angka</li>
+        <li>Bernyanyi</li>
+        <li>Problem solving</li>
+        <li>Mengendarai Motor</li>
+    </ul>
+    <h3>klik <a href="galeriFoto.HTML">disini</a> untuk melihat foto saya</h3>
+</body>
+</html>
